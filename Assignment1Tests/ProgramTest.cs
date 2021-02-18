@@ -7,7 +7,7 @@ namespace Assignment1Tests
     public class ProgramTest
     {
         [TestMethod]
-        public void ReverseStringShouldReturn ()
+        public void ReverseStringShouldReturn()
         {
 
         }
