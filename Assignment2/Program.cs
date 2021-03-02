@@ -15,7 +15,7 @@ namespace Assignment2
 
         private void Run()
         {
-            string filePath = System.IO.Directory.GetCurrentDirectory() + "\\lines.txt";
+            string filePath = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "lines.txt");
             List<string> reversedLines = new List<string>();
             try
             {
