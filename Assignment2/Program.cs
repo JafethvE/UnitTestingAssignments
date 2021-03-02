@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 
 namespace Assignment2
 {
@@ -16,7 +15,7 @@ namespace Assignment2
 
         private void Run()
         {
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "lines.txt");
+            string filePath = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "lines.txt");
             List<string> reversedLines = new List<string>();
             try
             {

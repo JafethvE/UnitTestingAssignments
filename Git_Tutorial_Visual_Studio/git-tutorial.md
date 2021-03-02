@@ -7,20 +7,22 @@ To do the assignments, you'll have to check out the repository on your machine, 
 By checking out the repository, you're making a local copy of the project on your machine. You can then change this with no risk to the master version that's on github.
 
 1. Go to the github page for the assignments repository: [https://github.com/JafethvE/UnitTestingAssignments](https://github.com/JafethvE/UnitTestingAssignments)
-2. On the guthup page click the green "Code" button
+2. On the github page, click the "Fork" button on the top right of the screen.
+![Github Fork Button](Fork_button.png)
+3. On the github page for your fork click the green "Code" button
 ![Github main screen](Git_Screen.PNG)
-3. Copy the checkout link
+4. Copy the checkout link
 ![Cloning screen](Clone.PNG)
-4. Open Visual Studio
-5. Click the Clone a repository button
+5. Open Visual Studio
+6. Click the Clone a repository button
 ![Visual Studio opening screen](Visual_Studio_Opening_screen.PNG)
-6. Paste the copied link into the "Repository location" field.
+7. Paste the copied link into the "Repository location" field.
 ![Check out repository dialog](Check_Out_Repository.PNG)
-7. Change the "Path" field to wherever you want the source code to be on your local machine.
+8. Change the "Path" field to wherever you want the source code to be on your local machine.
 ![Change Path](Change_Path_Location.png)
-8. Click "Clone" button
+9. Click "Clone" button
 ![Click clone button](Click_Clone_Button.png)
-9. Wait for the cloning process to complete.
+10. Wait for the cloning process to complete.
 
 Now you have cloned the project.
 
@@ -75,23 +77,26 @@ You have now saved your changes to the remote.
 ## Handing your assignment in with a pull-request
 
 When you think you are done with your assignments, you can hand them in by making a pull-request for me to review.
-This way I can give you easy feedback.
+This way I can give you easy feedback
 
-1. When you have committed and pushed all your changes, Visual Studio will give you the option to create a pull-request directly.
-![Pull request through Visual Studio](Visual_Studio_Pull-request.PNG)
-2. You can also make the pull-request through github.
-    1. Click the Branches button on Github
-    ![Branches button](Branches.PNG)
-    2. In the branches window, click the "New pull request" button for your development branch.
-    ![Pull request button](Branches_Window.PNG)
-3. Either way, you will be sent to github to make the pull-request
-4. On the pull-request from, change the base for the pull-request to the branch with your name, and make sure compare is your development branch
+1. Go to the github page for the assignments repository: [https://github.com/JafethvE/UnitTestingAssignments](https://github.com/JafethvE/UnitTestingAssignments)
+2. From here there are two ways to make a pull request:
+3. If you have pushed less than 2 hours ago, it'll show you the option to create a pull-request from your fork.
+![Pull request button](Pull_Request_From_Fork.png)
+    1. If the above button is not there, click the Pull-Requests tab.
+    ![Pull request tab](Pull_Request_Tab.png)
+    2. Click "compare across forks"
+    ![Compare across forks](Compare_Across_Forks.png)
+    3. Set the base repository to mine, with the branch 'master' and the head repository to your fork, with your development branch.
+    ![Set options](Set_Diff.png)
+    4. Click the "Create pull request"-button
+3. On the pull-request form, change the base for the pull-request to the branch with your name, and make sure compare is your development branch on your fork.
 ![Make sure branch is correct](Correct_Branches.png)
-5. Name the pull request <Your name> Assignments
+4. Name the pull request <Your name> Assignments.
 ![Pull request name](Pull-request_Github_Name.png)
-6. You can add a description, if you want. This is not required.
+5. You can add a description, if you want. This is not required.
 ![Pull request message](Pull-request_Github.PNG)
-7. Click the "Create pull request" button.
+6. Click the "Create pull request" button.
 ![Pull request button](Make_Pull-request_Github.png)
 
 You have now made a pull-request with all the changes you have made, which I can then review.
