@@ -9,7 +9,7 @@ namespace Assignment1
             Program program = new Program();
             program.Run();
         }
-        
+
         public void Run()
         {
             Console.WriteLine("Give a string to be reversed.");

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Assignment2
 {
@@ -15,7 +16,7 @@ namespace Assignment2
 
         private void Run()
         {
-            string filePath = System.IO.Directory.GetCurrentDirectory() + "\\lines.txt";
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "lines.txt");
             List<string> reversedLines = new List<string>();
             try
             {
@@ -32,7 +33,7 @@ namespace Assignment2
 
             Console.WriteLine("\npress any key to start the process...");
 
-            // basic use of "Console.ReadKey()" method 
+            // basic use of "Console.ReadKey()" method
             Console.ReadKey();
 
             Console.WriteLine("Your reversed lines are:");
@@ -71,7 +72,7 @@ namespace Assignment2
 
             Console.WriteLine("\npress any key to exit.");
 
-            // basic use of "Console.ReadKey()" method 
+            // basic use of "Console.ReadKey()" method
             Console.ReadKey();
         }
     }

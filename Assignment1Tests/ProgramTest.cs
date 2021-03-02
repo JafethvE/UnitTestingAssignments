@@ -9,7 +9,10 @@ namespace Assignment1Tests
         [TestMethod]
         public void ReverseStringShouldReturn()
         {
+            string value = "hello world";
+            Program program = new Program();
 
+            Assert.AreEqual(program.ReverseString(value), "dlrow olleh");
         }
     }
 }
