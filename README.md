@@ -13,7 +13,7 @@ The test project should be named "Assignment2Test"
 
 For this assignment, you have to design and create a programme, from scratch with accompanying testing suite, which does the following:
 
-1. The programme asks the user for a list of numbers from the user. The lenght of this list is arbitrary. **How you solve this is up to you.**
+1. The programme asks the user for a list of numbers from the user. The length of this list is arbitrary. **How you solve this is up to you.**
 2. The programme asks the user for an operation. For this assignment, at least addition, multiplication, and average have to be implemented.
 3. The programme performs the entered operation on the numbers the user has given, and gives the result back.
 
