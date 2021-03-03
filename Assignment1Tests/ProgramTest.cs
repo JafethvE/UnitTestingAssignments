@@ -12,7 +12,7 @@ namespace Assignment1Tests
             string value = "hello world";
             Program program = new Program();
 
-            Assert.AreEqual(program.ReverseString(value), "dlrow olleh");
+            Assert.AreEqual("dlrow olleh", program.ReverseString(value));
         }
     }
 }

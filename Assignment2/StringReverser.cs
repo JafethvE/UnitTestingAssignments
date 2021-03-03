@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Assignment2
 {
-    class StringReverser
+    public class StringReverser
     {
         FileReader fileReader;
 
@@ -11,7 +11,7 @@ namespace Assignment2
 
         public StringReverser()
         {
-            fileReader = new FileReader();
+            this.fileReader = new FileReader();
         }
 
         public StringReverser(FileReader fileReader)
@@ -19,6 +19,10 @@ namespace Assignment2
             this.fileReader = new FileReader();
         }
 
+        public FileReader GetFileReader()
+        {
+            return fileReader;
+        }
         public List<string> getReversedStringsFromFile(string filePath)
         {
             try

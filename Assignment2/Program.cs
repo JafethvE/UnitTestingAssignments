@@ -5,12 +5,18 @@ namespace Assignment2
 {
     class Program
     {
-        StringReverser stringReverser = new StringReverser();
+        private StringReverser stringReverser = new StringReverser();
+
 
         static void Main(string[] args)
         {
             Program program = new Program();
             program.Run();
+        }
+
+        public StringReverser GetStringReverser()
+        {
+            return stringReverser;
         }
 
         private void Run()
