@@ -23,7 +23,10 @@ Other requirements:
 - Think about class responsibilities.
 - Keep test coverage in mind.
 
-Hand this in as two projects, added to the solution. The main project should be named "Assignment3" and the test project should be named "Assignment3Test".
+Hand this in as two projects, added to the solution. The main project should be named "Assignment3", and the test project should be named "Assignment3Test".
+
+
+**You might run into a situation where you need to fix the production code to get working tests. This is deliberate.**
 
 ## Handing your assignment in with a pull-request
 
