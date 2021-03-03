@@ -16,7 +16,7 @@ namespace Assignment2
 
         public StringReverser(FileReader fileReader)
         {
-            this.fileReader = new FileReader();
+            this.fileReader = fileReader;
         }
 
         public FileReader GetFileReader()

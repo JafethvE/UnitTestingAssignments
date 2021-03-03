@@ -11,14 +11,6 @@ namespace Assignment2
             {
                 return File.ReadAllLines(filePath);
             }
-            //Catch the filenotfound exception and opt to create new instead
-            catch (FileNotFoundException e)
-            {
-                //NOTE: Normally this would be logged along with the write to console
-                Console.WriteLine(e.Message);
-                CreateEmptyFile(filePath);
-                return new string[]{};
-            }
             catch (Exception e)
             {
                 throw e;
