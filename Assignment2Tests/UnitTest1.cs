@@ -5,7 +5,6 @@ using System.IO;
 
 namespace Assignment2Tests
 {
-
     [TestClass]
     public class Program2Test
     {
