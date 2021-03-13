@@ -14,5 +14,31 @@ namespace Assignment1Tests
 
             Assert.AreEqual("dlrow olleh", program.ReverseString(value));
         }
+
+        [TestMethod]
+        public void CheckNonAlphaPalindromeReverse()
+        {
+            string value = ")(()";
+            Program program = new Program();
+            Assert.AreEqual(")(()", program.ReverseString(value));
+        }
+
+        [TestMethod]
+        public void CheckAlphaPalindromeReverse()
+        {
+            string value = "racecar";
+            Program program = new Program();
+
+            Assert.AreEqual("racecar", program.ReverseString(value));
+        }
+
+        [TestMethod]
+        public void CheckNonAlphaCharReverse()
+        {
+            string value = "+12$5^09";
+            Program program = new Program();
+
+            Assert.AreEqual("90^5$21+", program.ReverseString(value));
+        }
     }
 }
